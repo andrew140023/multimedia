@@ -40,7 +40,7 @@
 					  <audio loop id="player" src="HACHI.mp3"></audio>
 						<div> 
 						<button id="musicplay" onclick="if(document.getElementById('musicplay').innerHTML==='Play'){document.getElementById('player').play();document.getElementById('musicplay').innerHTML='Pause'}else{document.getElementById('player').pause();document.getElementById('musicplay').innerHTML='Play'}">Play</button> 
-						<button onclick="var num = prompt('請輸入你想聽的:\n 1.金魚花火-HACHI\n 2.Rainy proof-HACHI\n 3.羽肿  Windy Hill BGM');var name; if(num==1)name='HACHI.mp3'; else if(num==2)name='Rainy proof.mp3';else if(num==3)name='Windy Hil.mp3'; if(name!=null){document.getElementById('player').src=name;document.getElementById('player').play();document.getElementById('musicplay').innerHTML='Pause'}">Load</button> 
+						<button onclick="var num = prompt('請輸入你想聽的:\n 1.金魚花火-HACHI\n 2.Rainy proof-HACHI\n 3.羽肿  Windy Hill BGM\n 4.A Million Dreams  The Greatest Showman Cast  EASY PIANO TUTORIAL  SHEET MUSIC by Betacustic');var name; if(num==1)name='HACHI.mp3'; else if(num==2)name='Rainy proof.mp3';else if(num==3)name='Windy Hil.mp3';else if(num==4)name='A Million Dreams  The Greatest Showman Cast  EASY PIANO TUTORIAL  SHEET MUSIC by Betacustic.mp3'; if(name!=null){document.getElementById('player').src=name;document.getElementById('player').play();document.getElementById('musicplay').innerHTML='Pause'}">Load</button> 
 						<button onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
 						<button onclick="document.getElementById('player').volume -= 0.1">Vol -</button> 
 						</div>
