@@ -36,9 +36,15 @@
 					<p>網頁作品、影音展示<br>
 					組員: 馮其安、賀之穎、鄧依琪<br>
 					教授: 張瑞峰</p>
-					<ul class="actions special">
-						<li><a href="http://cad.csie.ntu.edu.tw/rfchang/index.php/2016-11-08-10-45-51/2016-11-08-13-39-04" class="button primary">教授網站</a></li>
-					</ul>
+					
+					  <audio id="player" src="HACHI.mp3"></audio>
+						<div> 
+						<button onclick="document.getElementById('player').play()">Play</button> 
+						<button onclick="document.getElementById('player').pause()">Pause</button> 
+						<button onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
+						<button onclick="document.getElementById('player').volume -= 0.1">Vol -</button> 
+						</div>
+						
 				</div>
 				<a href="#one" class="more scrolly">Learn More</a>
 			</section>
