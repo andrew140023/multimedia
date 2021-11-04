@@ -37,10 +37,10 @@
 					組員: 馮其安、賀之穎、鄧依琪<br>
 					教授: 張瑞峰</p>
 					
-					  <audio id="player" src="HACHI.mp3"></audio>
+					  <audio loop id="player" src="HACHI.mp3"></audio>
 						<div> 
 						<button id="musicplay" onclick="if(document.getElementById('musicplay').innerHTML==='Play'){document.getElementById('player').play();document.getElementById('musicplay').innerHTML='Pause'}else{document.getElementById('player').pause();document.getElementById('musicplay').innerHTML='Play'}">Play</button> 
-						<button onclick="var num = prompt('請輸入你想聽的: 1.金魚花火-HACHI 2.Rainy proof');var name; if(num==1)name='HACHI.mp3'; else if(num==2)name='Rainy proof.mp3'; document.getElementById('player').src=name;document.getElementById('player').play();document.getElementById('musicplay').innerHTML='Pause'">Load</button> 
+						<button onclick="var num = prompt('請輸入你想聽的:\n 1.金魚花火-HACHI\n 2.Rainy proof');var name; if(num==1)name='HACHI.mp3'; else if(num==2)name='Rainy proof.mp3'; if(name!=null){document.getElementById('player').src=name;document.getElementById('player').play();document.getElementById('musicplay').innerHTML='Pause'}">Load</button> 
 						<button onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
 						<button onclick="document.getElementById('player').volume -= 0.1">Vol -</button> 
 						</div>
